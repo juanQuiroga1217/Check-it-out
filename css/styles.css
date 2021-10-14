@@ -1,0 +1,146 @@
+body {
+    font-family: Arial bold;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 400;
+    background-color: #fff;
+    color: #333;
+    text-align: justify;
+    margin: 0;
+    padding: 0;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .input-text {
+      width: 25%;
+    }
+  }
+
+
+.header-styles {
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    background-color: #2456ee;
+    color: #fff;
+}
+
+.header-styles a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    
+}
+  
+.header-styles a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.container-main{
+    margin-top: 50px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1280px;
+}
+
+.img-flotante {
+    position: fixed;
+    z-index: 99;
+    margin-left: 600px;
+    margin-top: -35px;
+    border: 2px solid;
+}
+
+.formulario-main {
+  display: block;
+  width: 1200px;
+  margin: auto;
+  padding: 10px;
+  font-size: 18px;
+
+}
+
+.input-text{
+  display: block;
+  width: 1200px;
+  margin: auto;
+  padding: 10px;
+  font-size: 18px;
+}
+
+
+.button {
+    position: relative;
+    vertical-align: top;
+    width: 20%;
+    height: 60px;
+    padding: 0;
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+    background: #eebc24;
+    border: 0;
+    border-bottom: 2px solid #eebc24;
+    cursor: pointer;
+    -webkit-box-shadow: inset 0 -2px #eebc24;
+    box-shadow: inset 0 -2px #eebc24;
+  }
+
+  .button:active {
+    top: 1px;
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+
+  @import url("//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+  .search { position: relative;}
+  .search input { text-indent: 30px;}
+  .search .fa-search { 
+    position: absolute;
+    top: 7px;
+    left: 7px;
+    font-size: 15px;
+  }
+
+  .deletebtn {
+    background-color: #f44336;
+    border-radius: 9px;
+    float: right;
+  }
+
+  .deletebtn:hover{
+    background-color: #f1847c;
+  }
+
+  .modificarbtn {
+    background-color: #eebc24;
+    border-radius: 9px;
+    float: right;
+  }
+
+  .modificarbtn:hover{
+    background-color: rgb(232, 247, 168);
+  }
+
+  .item-producto{
+    display:inline-block;
+    vertical-align:middle;
+  }
+
+  .imagen-producto{
+    width:80px; height:80px;
+  }
+
+  .texto-producto{
+    font-weight: bold;
+    font-size: large;
+    margin-left: 250px;
+}
